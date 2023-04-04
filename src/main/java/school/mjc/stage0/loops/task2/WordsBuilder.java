@@ -4,10 +4,8 @@ public class WordsBuilder {
     public void buildPhrase(char... chars) {
         int len = chars.length;
         int son = 0;
-        String ress=""; 
         while (son<len)
-            ress+=chars[son++];
-        System.out.println(ress);
+            System.out.print(chars[son++]);
     }
     public static void main(String[] args) {
         WordsBuilder wordsBuilder = new WordsBuilder();
